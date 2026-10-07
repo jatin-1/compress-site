@@ -3,7 +3,7 @@ const TARGET = 900000;
 
 // Replace with your Lightning domain, e.g. https://yourorg.lightning.force.com
 const CORS = {
-  'Access-Control-Allow-Origin': 'https://YOURORG.lightning.force.com',
+  'Access-Control-Allow-Origin': 'https://eil--partial.sandbox.lightning.force.com',
   'Access-Control-Allow-Headers': 'Content-Type',
   'Access-Control-Allow-Methods': 'POST, OPTIONS'
 };
