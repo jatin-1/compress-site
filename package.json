@@ -1,5 +1,9 @@
 {
+  "name": "image-compress-function",
+  "version": "1.0.0",
+  "private": true,
   "dependencies": {
-    "sharp": "^0.33.0"
+    "heic-convert": "^2.1.0",
+    "sharp": "^0.33.5"
   }
 }
