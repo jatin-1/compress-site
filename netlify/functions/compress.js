@@ -5,7 +5,8 @@ const TARGET = 900000; // bytes, must stay below the 1 MB batch limit
 
 // Allowed Salesforce origins. Override in Netlify: Site settings > Environment variables
 // ALLOWED_ORIGINS = https://yourorg.lightning.force.com,https://yourorg--sbx.sandbox.lightning.force.com
-const ALLOWED_ORIGINS = (process.env.ALLOWED_ORIGINS || 'https://eil--partial.sandbox.lightning.force.com')
+const ALLOWED_ORIGINS = (process.env.ALLOWED_ORIGINS ||
+  'https://eil--partial.sandbox.lightning.force.com,https://eil.lightning.force.com')
   .split(',').map((s) => s.trim()).filter(Boolean);
 
 const corsHeaders = (event) => {
